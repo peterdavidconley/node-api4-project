@@ -6,17 +6,17 @@ In this challenge, you will build a simple Express app and deploy it to Heroku.
 
 ### Task 1: Project Setup and Submission
 
-Your assignment page on Canvas should contain instructions for submitting this project. If you are still unsure, reach out to School Staff.
+[x] Your assignment page on Canvas should contain instructions for submitting this project. If you are still unsure, reach out to School Staff.
 
 ### Task 2: Minimum Viable Product
 
 - [ ] Build a simple API:
 
-  - Create a `.gitignore` file executing `npx gitignore node`
-  - Create a `package.json` file executing `npm init --y`
-  - Add Eslint to the project executing `npx eslint --init`
-  - Edit the `package.json` file to add `"start"` and `"server"` scripts
-  - Install `express`, `dotenv`, `cors`
+  [x] Create a `.gitignore` file executing `npx gitignore node`
+  [x] Create a `package.json` file executing `npm init --y`
+  [x] Add Eslint to the project executing `npx eslint --init`
+  [x] Edit the `package.json` file to add `"start"` and `"server"` scripts
+  [x] Install `express`, `dotenv`, `cors`
   - Add support for environment variables using an `.env` file and the dotenv library, providing fallbacks in the code
   - Flesh out the API:
 
