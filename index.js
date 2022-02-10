@@ -26,10 +26,6 @@ server.listen(PORT, () => {
     console.log(`***** Listening on port ${PORT} *****`)
 })
 
-server.use('/', (req, res) => {
-    res.json('<h1>Root Access Working</h1>')
-})
-
 server.get('/api/users', (req, res) => {
     res.json(users)
 })
