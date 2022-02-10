@@ -16,6 +16,14 @@ server.listen(PORT, () => {
     console.log(`***** Listening on port ${PORT} *****`)
 })
 
-server.get('/', (req, res) => {
+server.get('/api/users', (req, res) => {
     res.json(users)
+})
+
+server.post('/api/register', (req, res) => {
+
+})
+
+server.post('/api/login', (req, res) => {
+        
 })
