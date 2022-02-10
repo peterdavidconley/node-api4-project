@@ -1,5 +1,12 @@
 const express = require('express');
 const server = express();
+const users = [
+
+    { name: 'Peter' },
+    { name: 'James' },
+    { name: 'David' },
+
+]
 
 require('dotenv').config()
 
@@ -9,6 +16,6 @@ server.listen(PORT, () => {
     console.log(`***** Listening on port ${PORT} *****`)
 })
 
-server.use('*', (req, res) => {
-    res.send('<h1>Node API-4 Project</h1>')
+server.get('/', (req, res) => {
+    res.json(users)
 })

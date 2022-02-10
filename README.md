@@ -17,7 +17,7 @@ In this challenge, you will build a simple Express app and deploy it to Heroku.
   [x] Add Eslint to the project executing `npx eslint --init`
   [x] Edit the `package.json` file to add `"start"` and `"server"` scripts
   [x] Install `express`, `dotenv`, `cors`
-  - Add support for environment variables using an `.env` file and the dotenv library, providing fallbacks in the code
+  [x] Add support for environment variables using an `.env` file and the dotenv library, providing fallbacks in the code
   - Flesh out the API:
 
     | Method | URL           | Description                                                                                         |
@@ -26,7 +26,7 @@ In this challenge, you will build a simple Express app and deploy it to Heroku.
     | POST   | /api/register | Creates a user from { username, password } in the `request body`, responds with newly created user. |
     | POST   | /api/login    | Checks { username, password } in the `request body`, responds with a welcome message.               |
 
-- [ ] Deploy your app to [Heroku](https://heroku.com). The link to the deployed API is your submission deliverable
+- [x] Deploy your app to [Heroku](https://heroku.com). The link to the deployed API is your submission deliverable
 
 ### Important Notes
 
