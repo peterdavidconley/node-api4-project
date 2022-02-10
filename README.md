@@ -22,9 +22,9 @@ In this challenge, you will build a simple Express app and deploy it to Heroku.
 
     | Method | URL           | Description                                                                                         |
     | ------ | ------------- | ----------------------------------------------------------------------------------------------      |
-    | GET    | /api/users    | Returns an array users.                                                                             |
-    | POST   | /api/register | Creates a user from { username, password } in the `request body`, responds with newly created user. |
-    | POST   | /api/login    | Checks { username, password } in the `request body`, responds with a welcome message.               |
+    [X] | GET    | /api/users    | Returns an array users.                                                                             |
+    [] | POST   | /api/register | Creates a user from { username, password } in the `request body`, responds with newly created user. |
+    [] | POST   | /api/login    | Checks { username, password } in the `request body`, responds with a welcome message.               |
 
 - [x] Deploy your app to [Heroku](https://heroku.com). The link to the deployed API is your submission deliverable
 
